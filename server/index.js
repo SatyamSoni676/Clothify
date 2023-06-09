@@ -3,7 +3,6 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 
 import dalleRoutes from './routes/dalle.routes.js';
-
 dotenv.config();
 
 const app = express();
